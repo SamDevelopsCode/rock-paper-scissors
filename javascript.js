@@ -50,12 +50,14 @@ function chooseRoundWinner(playerChoice, computerChoice){
     else if (playerChoice == "rock" && computerChoice == "paper")
     {
         computerScore++;
+        console.log("Point => Computer");
         showScores();
         return;
     }
     else if (playerChoice == "rock" && computerChoice == "scissors")
     {
         playerScore++;
+        console.log("Point => Player");
         showScores();
         return;
     }
@@ -68,12 +70,14 @@ function chooseRoundWinner(playerChoice, computerChoice){
     else if (playerChoice == "paper" && computerChoice == "scissors")
     {
         computerScore++;
+        console.log("Point => Computer");
         showScores();
         return;
     }
     else if (playerChoice == "paper" && computerChoice == "rock")
     {
         playerScore++;
+        console.log("Point => Player");
         showScores();
         return;
     }
@@ -86,12 +90,14 @@ function chooseRoundWinner(playerChoice, computerChoice){
     else if (playerChoice == "scissors" && computerChoice == "rock")
     {
         computerScore++;
+        console.log("Point => Computer");
         showScores();
         return;
     }
     else if (playerChoice == "scissors" && computerChoice == "paper")
     {
         playerScore++;
+        console.log("Point => Player");
         showScores();
         return;
     }   
