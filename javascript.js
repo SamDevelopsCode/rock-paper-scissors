@@ -1,3 +1,7 @@
+/*
+I opted for first to 3 points instead of 5 rounds for the game rules.
+*/
+
 let playerScore = 0;
 let computerScore = 0;
 
